@@ -1,0 +1,96 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+/* nav start */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.logo-container img {
+    width: 2.5rem;
+}
+
+.logo-text {
+    font-size: 1rem;
+}
+
+.nav-icon-container{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-icon-container i {
+    color: darkgray;
+    font-size: 1.1rem;
+}
+
+.left-nav-icon-container {
+    margin-left: 9rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.right-nav-icon-container{
+    padding-right: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: cadetblue;
+}
+
+.nav-icon-container i:hover {
+    color: black;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+/* -------------------------- */
+
+  .sidebar-container{
+    display: flex;
+  }
+  .sidebar {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 10rem;
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar a {
+    display: block;
+    color:#a6b0bd;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  /* .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+  
+  .sidebar a:hover {
+    color: #4fd1c5;
+    transition: 0.5s;
+  }
+  
+  div.content {
+
+    padding: 1px 16px;
+    flex-grow: 1;
+  }
