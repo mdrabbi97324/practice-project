@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1200px) {
+.report-container {
+    grid-template-columns: none;
+}
+
+.sidebar-container {
+    display: none;
+}
+
+.analytics-container {
+    grid-template-columns: none;
+}
+
+.numbers-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr))}
+}
